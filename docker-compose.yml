@@ -65,7 +65,7 @@ services:
       - ./huasen-nginx/html:/usr/share/nginx/html
     ports:
       # 宿主机:容器
-      - 80:80
+      - 10086:80
     environment:
       - TZ=Asia/Shanghai
       # ohttps部署节点id
