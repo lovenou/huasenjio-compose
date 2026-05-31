@@ -16,9 +16,9 @@
 
 ## 💪 开源列表
 
-✅ 花森起始页容器版（[huasenjio-compose](https://github.com/huasenjio/huasenjio-compose)）
+✅ 花森起始页一体化容器版（[huasenjio-compose](https://github.com/huasenjio/huasenjio-compose)）
 
-✅ 花森起始页静态版（[huasen-protal](https://github.com/huasenjio/huasen-portal)）
+✅ 花森起始页纯前端版（[huasen-protal](https://github.com/huasenjio/huasen-portal)）
 
 ✅ 花森脚手架（[huasen-cli](https://github.com/huasenjio/huasen-cli)）
 
@@ -72,9 +72,9 @@
 
 ✅ Markdown 文章阅读，支持三级锚点目录；
 
-✍️ 网链二级详情页；
+✅ 网链二级详情页；
 
-✍️ AI 对话；
+✅ 🔥AI 应用对话及知识库；
 
 ☑️ 提交链接；
 
@@ -82,7 +82,7 @@
 
 ### 后台管理
 
-✅ 实时访客及在线用户（支持踢下线）统计，记录 PV、UV、IP、反向链接、设备，精准掌控流量（不涉及敏感信息）；
+✅ 实时访客及在线用户（支持踢下线）统计，记录 PV、UV、IP、反向链接、设备，精准掌控流量；
 
 ✅ 服务器状态监听，记录 CPU、内存、磁盘使用占比；
 
@@ -102,7 +102,9 @@
 
 ✅ 路由标签化展示，支持页面缓存；
 
-✍️ AI 对话应用管理；
+✅ 🔥AI 应用配置及知识库管理；
+
+✅ 🔒AI 插件及能力；
 
 ☑️ 提交链接管理；
 
@@ -116,7 +118,7 @@
 
 ✅ 权限管理，支持 jwt 身份校验；
 
-✅ 加密传输，包含对称、非对称、数字签名加密传输；
+✅ 加密传输，包含对称、非对称、数字信封；
 
 ✅ 邮件服务，支持发送验证码，帮助用户注册/登录；
 
@@ -135,6 +137,8 @@
 ✅ 静态目录；
 
 ✅ 爬虫、黑名单拦截中间件；
+
+✅ 登录图形验证码；
 
 ☑️ 资源防盗链；
 
@@ -227,8 +231,8 @@
 **脚本仅适用 CentOS 7/8、OpenCloudOS 9.x、Debian 12、Ubuntu 22 系统**，部署安装非常简单，进入服务器终端，执行命令：
 
 ```sh
-curl -O https://www.huasenjio.top/bin/install.sh && \
-curl -O https://www.huasenjio.top/bin/env-lib.sh && \
+curl -O https://huasenjio.top/bin/install.sh && \
+curl -O https://huasenjio.top/bin/env-lib.sh && \
 chmod +x install.sh && \
 ./install.sh
 ```
